@@ -7,7 +7,8 @@
 	<title>John Reginald : A Programmer's Blog</title>
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cosmo/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/css/bootstrap-material-design.css">	
 	
 	<link rel="stylesheet" type="text/css" href="app.css">	
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
@@ -22,13 +23,14 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 text-center">
-				<h1 class="size50 text-center" data-sr="move 50px enter top over 1s">John Reginald</h1>
-				<p class="size18 text-muted text-center" data-sr="move 50px enter top hustle over 1s">A Freelance Web Developer</p>								
+			<div class="col-md-6 text-center">							
+				<img class="img img-responsive img-circle center-block avatar" src="http://i.imgur.com/gJ4cXUz.jpg">
 
-				<img class="img img-responsive center-block avatar" src="http://graph.facebook.com/v2.5/100004619558971/picture?_rdr=p&height=520&width=520">
+				<h1 class="name" data-sr="enter bottom ease scale wait 0.3s">Htet Wai Yan Soe</h1>
+				
+				<h4 class="job text-muted" data-sr="enter bottom ease scale wait 0.3s">Professional Web Developer</h4>	
 
-				<div class="social-icon" data-sr="enter bottom ease scale wait 0.5s">
+				<div class="social-icon" data-sr="enter bottom ease scale wait 0.3s">
 					<a target="_blank" href="https://facebook.com/johnthelinux"><i class="fa fa-facebook fa-3x"></i></a>
 					<a target="_blank" href="https://linkedin.com/in/johnthelinux"><i class="fa fa-linkedin fa-3x"></i></a>
 					<a target="_blank" href="https://github.com/johnreginald"><i class="fa fa-github fa-3x"></i></a>
@@ -37,16 +39,17 @@
 				</div>
 			</div>
 
-			<hr class="visible-xs visible-sm"> 
+			<!-- About me -->
+			<div class="well about col-md-6">
+				<div data-sr="enter bottom ease scale wait 0.3s">
+					
+					<h3>Hello World!</h3>
 
-			<div class="about col-md-6 mt20 opensan">
-				<div data-sr="enter right ease-out 50px over 1s">
-					<!-- About me -->
 					<p>
-						Hello World. I'm John Reginald, a Freelance Individual from a very beautiful country, <a target="_blank" href="https://en.wikipedia.org/wiki/Myanmar">Myanmar</a>.
+						I'm John Reginald, a Freelance Individual from a very beautiful country, <a target="_blank" href="https://en.wikipedia.org/wiki/Myanmar">Myanmar</a>.
 						I love to create <a target="_blank" href="projects">Awesome Stuff</a> related to World Wide Web.	
 						I spend most of free time writing my experience and tutorials on my <a target="_blank" href="blog">Blog</a> and hangout with <a target="_blank" href="https://web.facebook.com/groups/laravelmyanmar">Local Developer Groups</a>.
-						I'm also teaching a several <a target="_blank" href="http://cyberwings.asia">Web Developing classes</a> at <a target="_blank" href="http://cyberwings.asia">The Cyber Wings Team</a>.						
+						I'm also teaching <a target="_blank" href="http://johnthelinux.com/class">Professional Web Development Course</a> at <a target="_blank" href="http://cyberwings.asia">The Cyber Wings Team</a>.						
 						I can help you design and develop elegant and effective Web App / Websites for your business needs.
 						If you like to hire or work with me, please feel free to <a target="_blank" href="blog/aboutme">get in touch</a> and i'm very excited to discuss with you further.
 					</p>
@@ -62,15 +65,17 @@
 
 				<br>
 
-				<a type="button" href="blog/aboutme" target="_blank" class="btn btn-sm size18 btn-info" data-sr="move 50px enter bottom over 1s">Contact Me</a>
-				<a type="button" href="blog" target="_blank" class="btn btn-sm size18 btn-info" data-sr="move 50px enter bottom over 1s">Continue to My Blog <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+				<div class="btn-group btn-group-justified btn-group-raised">
+					<a type="button" href="blog/aboutme" target="_blank" class="btn btn-info" data-sr="move 50px enter bottom over 1s">Contact Me</a>
+					<a type="button" href="blog" target="_blank" class="btn btn-success" data-sr="move 50px enter bottom over 1s">Blog</a>
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/2.3.2/scrollReveal.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script>
 
 		window.sr = new scrollReveal();
